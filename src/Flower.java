@@ -1,16 +1,15 @@
 /*
-* Flowers grow from seeds and require sunlight, 
-Nutrients, and water.
+track the amount of growth in a certain flower based on the amount of sunlight its exposed to (better description)
 */
 
-class flower {
+class Flower { // corrected the name of class so the first letter is now uppercase
 	String type;
 	public double growRate;
 	public float height;
-	public int daysOfsunlight;
+	public int daysOfsunlight; //number of days exposed to sunlight
 
 
-    public flower(String type, double growRate, float height, int daysOfsunlight) {
+    public Flower(String type, double growRate, float height, int daysOfsunlight) {
         this.type = type;
         this.growRate = growRate;
         this.height = height;

@@ -1,3 +1,5 @@
+// provides description of the shoes she is wearing.
+
 
 class Shoe {
 

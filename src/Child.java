@@ -1,9 +1,9 @@
-//average size 10 year old boy
+// the height and weight of a child related to age.  (Name of class and comments changed)
 class Child {
 
 
-	String name;
-	byte age;
+	String name; // childs name
+	int age; //child age in number of years (changed per comments)
 	double height;  // number of inches
 	double weight;  // number of pounds
 
@@ -23,7 +23,7 @@ class Child {
         this.name = name;
     }
 
-    public byte getAge() {
+    public int getAge() {
         return age;
     }
 
