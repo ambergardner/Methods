@@ -1,8 +1,10 @@
-// the height and weight of a child related to age.  (Name of class and comments changed)
+/* the height and weight of a child related to age.
+(Name of class and comments changed)
+*/
+
 class Child {
 
-
-	String name; // childs name
+    String name; // childs name
 	int age; //child age in number of years (changed per comments)
 	double height;  // number of inches
 	double weight;  // number of pounds

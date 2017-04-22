@@ -1,8 +1,8 @@
-// provides description of the shoes she is wearing.
-
+/* provides description of
+the shoes she is wearing.
+ */
 
 class Shoe {
-
 
     String type;
     public boolean openToe;

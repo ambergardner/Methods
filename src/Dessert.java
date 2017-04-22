@@ -1,5 +1,6 @@
-// Single serving pastry made with sugar
-
+/* Single serving pastry
+made with sugar.
+ */
 
 public class Dessert {
         String type;

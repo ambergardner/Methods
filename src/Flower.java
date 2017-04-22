@@ -1,12 +1,13 @@
-/*
-track the amount of growth in a certain flower based on the amount of sunlight its exposed to (better description)
-*/
+/* track the amount of growth in
+various conditions
+ */
 
-class Flower { // corrected the name of class so the first letter is now uppercase
+
+class Flower {
 	String type;
 	public double growRate;
 	public float height;
-	public int daysOfsunlight; //number of days exposed to sunlight
+	public int daysOfsunlight;
 
 
     public Flower(String type, double growRate, float height, int daysOfsunlight) {
